@@ -4,7 +4,7 @@ class Controller_Welcome extends Controller {
 
 	public function action_index()
 	{
-		$this->response->body('Bsides Iowa 2015 Presentation - Vulnerable Web app');
+		$this->response->body(View::factory('home'));
   }
 
 } // End Welcome
