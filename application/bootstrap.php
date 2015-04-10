@@ -64,7 +64,7 @@ ini_set('unserialize_callback_func', 'spl_autoload_call');
 mb_substitute_character('none');
 
 // -- Configuration and initialization -----------------------------------------
-
+Cookie::$salt = 'lololol';
 /**
  * Set the default language
  */
