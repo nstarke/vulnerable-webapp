@@ -7,9 +7,9 @@ class Controller_Xss extends Controller {
 		$this->response->body(View::factory('index'));
   }
 
-  public function action_submit()
-  {
-    $input = $_POST['input'];
-    $this->response->body(View::factory('xss')->bind('input', $input)->render());
-  }
+  /* public function action_submit() */
+  /* { */
+  /*   $input = $_POST['input']; */
+  /*   $this->response->body(View::factory('xss')->bind('input', $input)->render()); */
+  /* } */
 } // End Welcome
